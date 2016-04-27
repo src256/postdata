@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="rbenv: 2.2.4" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="minitest (vbundled(5.8.4), /Users/sora/work/postdata/.bundle/ruby/2.2.0/gems/minitest-5.8.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/minitest-5.8.4/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/minitest-5.8.4/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rake (vbundled(10.5.0), /Users/sora/work/postdata/.bundle/ruby/2.2.0/gems/rake-10.5.0) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/rakelib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/bin" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/lib" />
+          <root url="file://$MODULE_DIR$/.bundle/ruby/2.2.0/gems/rake-10.5.0/rakelib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.11.2, rbenv: 2.2.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="minitest (v5.4.3, rbenv: 2.2.4) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v10.4.2, rbenv: 2.2.4) [gem]" level="application" />
+  </component>
+</module>
