@@ -22,6 +22,7 @@ rerun.txt
 pickle-email-*.html
 .project
 /*.sql
+/pkg/*
 
 /public/assets/*
 
