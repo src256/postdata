@@ -30,6 +30,7 @@ pickle-email-*.html
 .idea/tasks.xml
 
 data/*
+/vendor/bundle
 
 
 

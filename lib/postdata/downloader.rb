@@ -22,13 +22,13 @@ module Postdata
 
     def self.get_update_date(url)
       content = open(url, "r:UTF-8").read
-      if content !~ /<p><small>平成(\d+)年\s*(\d+)月\s*(\d+)日更[^<]*<\/small><\/p>/u
+#      p content
+      if content !~ />(\d+)年(\d+)月(\d+)日更新/
         raise RuntimeError, "更新日が取得できません";
       end
-      heisei = $1
+      year = $1
       month = $2
       day = $3
-      year = heisei_to_seireki(heisei).to_s
 
       ymd = year + format_month_or_day(month) + format_month_or_day(day)
       if (ymd.length != 8)
